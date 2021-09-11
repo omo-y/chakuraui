@@ -1,0 +1,25 @@
+PS C:\Users\ï\ëPçK> git -v
+unknown option: -v
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--super-prefix=<path>] [--config-env=<name>=<envvar>]
+PS C:\Users\ï\ëPçK> git -version
+unknown option: -version
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           [--super-prefix=<path>] [--config-env=<name>=<envvar>]
+           <command> [<args>]
+PS C:\Users\ï\ëPçK> git config --global user.name
+omo-y
+PS C:\Users\ï\ëPçK> git config --global user.email
+info@mand-y.com
+PS C:\Users\ï\ëPçK> 
+
+
+
+ê›íË
+$ git config --global user.name "John Doe"
+$ git config --global user.email johndoe@example.com

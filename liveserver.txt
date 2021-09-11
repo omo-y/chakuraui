@@ -1,0 +1,39 @@
+作業するフォルダをVSCodeで開き、右下の「Go Live」というテキストをクリックします。
+そうすると、「http://127.0.0.1:5500」でローカルサーバーが起動します。（初期設定の場合）
+※ファイル単体を開くとLive Serverが機能せず「Go Live」というテキストが出てきませんので、必ずフォルダを開くようにしてください。
+
+
+
+停止
+サーバー起動後、先ほど「Go Live」と書かれていた箇所が「Port:5500」となっているので、これをクリックするとサーバーが停止します。
+
+設定
+Live Serverは、初期設定のままでも問題なく使用することができますが、設定を変えることでより使いやすくなりますのでいくつか設定をご紹介します。
+
+liveServer.settings.host
+ローカルサーバーのホスト名を変更することができます。
+
+liveServer.settings.port
+ローカルサーバーのポート番号を変更することができます。
+ランダムなポート番号にしたい場合は0を指定します。
+
+liveServer.settings.CustomBrowser
+「Go Live」を押した時に起動するブラウザを変更することができます。
+使用できる値は以下の6つです。
+
+chrome
+chrome:PrivateMode
+firefox
+firefox:PrivateMode
+microsoft-edge
+blisk
+その他の設定に関しては以下の設定ページをご覧ください（GitHubに飛びます）
+https://github.com/ritwickdey/vscode-live-server/blob/master/docs/settings.md
+
+また、これらの設定は ファイル → 基本設定 → 設定 にある三点アイコンからSetting.jsonを選択して編集
+もしくは、サイドバーにある拡張機能タブの「Live Server Config」から変更することができます。
+
+準備に手間のかかるイメージのライブリロードですが、「Live Server」を使えばたったの3ステップで手間なくライブリロードを始めることができます。
+JS初学者の方や作業効率を上げたい方は是非活用してみてください！
+
+liveserver
